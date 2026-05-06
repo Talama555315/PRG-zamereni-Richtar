@@ -46,7 +46,7 @@ public class SeriesMapping {
         //
         // " Chernobyl - 9.2 "
         //
-        // Bonus - vypsat hodnocení na jednu sezonu
+        // vypsat hodnocení na jednu sezonu
     }
 
 }
@@ -110,7 +110,6 @@ class Episode {
 class Series {
     String code;
     String title;
-    List<Episode> episodes;
 
     @Override
     public boolean equals(Object o) {
